@@ -19,7 +19,7 @@ export const Tabs = ({ tabs, activeTabId, onTabSelected }) => {
               }}
               data-cy="TabLink"
             >
-              {tab.label}
+              {tab.title}
             </a>
           </li>
         ))}
